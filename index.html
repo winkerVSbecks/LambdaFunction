@@ -55,7 +55,7 @@
 	</div>
 
 	<div class="container">
-		<div class="sixteen columns add-bottom hero" id="prgm"> 
+		<div class="sixteen columns add-bottom hero" id="prgm">
 			<div class="swipe-wrap small-bottom">
 				<div class="slide">
 					<img src="prgm/whatsYourNews.png">
@@ -110,7 +110,7 @@
 				<div class="arrows">
 					<i id="prgm-left" class="arrow left icon-angle-left icon-4x"></i>
 					<i id="prgm-right" class="arrow right icon-angle-right icon-4x"></i>
-				</div> 
+				</div>
 			</div>
 		</div>
 	</div><!-- END CONTAINER -->
@@ -127,7 +127,7 @@
 	</div>
 
 	<div class="container">
-		<div class="sixteen columns add-bottom hero" id="instl"> 
+		<div class="sixteen columns add-bottom hero" id="instl">
 			<div class="swipe-wrap small-bottom">
 				<div class="slide">
 					<img src="instl/homesick.png">
@@ -153,7 +153,7 @@
 				<div class="arrows">
 					<i id="instl-left" class="arrow left icon-angle-left icon-4x"></i>
 					<i id="instl-right" class="arrow right icon-angle-right icon-4x"></i>
-				</div> 
+				</div>
 			</div>
 		</div>
 	</div><!-- END CONTAINER -->
@@ -170,7 +170,7 @@
 	</div>
 
 	<div class="container">
-		<div class="sixteen columns add-bottom hero" id="design"> 
+		<div class="sixteen columns add-bottom hero" id="design">
 			<div class="swipe-wrap small-bottom">
 				<div class="slide">
 					<img src="design/whatsInAMotor.png">
@@ -201,7 +201,7 @@
 				<div class="arrows">
 					<i id="design-left" class="arrow left icon-angle-left icon-4x"></i>
 					<i id="design-right" class="arrow right icon-angle-right icon-4x"></i>
-				</div> 
+				</div>
 			</div>
 		</div>
 	</div><!-- END CONTAINER -->
@@ -219,7 +219,7 @@
 	</div>
 
 	<div class="container">
-		<div class="sixteen columns add-bottom hero" id="fun"> 
+		<div class="sixteen columns add-bottom hero" id="fun">
 			<div class="swipe-wrap small-bottom">
 				<div class="slide">
 					<img src="fun/chaosTheory.png">
@@ -262,7 +262,7 @@
 				<div class="arrows">
 					<i id="fun-left" class="arrow left icon-angle-left icon-4x"></i>
 					<i id="fun-right" class="arrow right icon-angle-right icon-4x"></i>
-				</div> 
+				</div>
 			</div>
 		</div>
 	</div><!-- END CONTAINER -->
@@ -288,7 +288,7 @@
 					<a itemprop="url" target="_blank" href="http://stackoverflow.com/users/1365008/winkervsbecks">
 						<i class="icon-stackexchange icon-2x"></i>
 					</a>
-					<a target="_blank" href="http://winkervsbecks.com">
+					<a target="_blank" href="http://varun.ca">
 						<i class="icon-bullseye icon-2x"></i>
 					</a>
 				</p>
@@ -313,8 +313,8 @@
     });
 
   	// Programming Section Slider
-  	$('#prgm img').on('dragstart', function(event) { 
-  		event.preventDefault(); 
+  	$('#prgm img').on('dragstart', function(event) {
+  		event.preventDefault();
   	});
   	var elem = document.getElementById('prgm');
 		prgmSwipe = Swipe(elem, {
@@ -332,8 +332,8 @@
 		});
 
 		// Installation Section Slider
-  	$('#instl img').on('dragstart', function(event) { 
-  		event.preventDefault(); 
+  	$('#instl img').on('dragstart', function(event) {
+  		event.preventDefault();
   	});
   	var elem = document.getElementById('instl');
 		instlSwipe = Swipe(elem, {
@@ -351,8 +351,8 @@
 		});
 
 		// Design Section Slider
-  	$('#design img').on('dragstart', function(event) { 
-  		event.preventDefault(); 
+  	$('#design img').on('dragstart', function(event) {
+  		event.preventDefault();
   	});
   	var elem = document.getElementById('design');
 		designSwipe = Swipe(elem, {
@@ -370,8 +370,8 @@
 		});
 
 		// Fun Section Slider
-  	$('#fun img').on('dragstart', function(event) { 
-  		event.preventDefault(); 
+  	$('#fun img').on('dragstart', function(event) {
+  		event.preventDefault();
   	});
   	var elem = document.getElementById('fun');
 		funSwipe = Swipe(elem, {
@@ -394,7 +394,7 @@
 	    if (elementClicked.substring(0, 1) === "#") {
 		    var destination = $(elementClicked).offset().top;
 		    $("html:not(:animated),body:not(:animated)").animate(
-		    	{ 
+		    	{
 		    		scrollTop: destination-15
 		    	}, 500 );
 		    return false;
