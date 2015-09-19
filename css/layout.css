@@ -21,7 +21,7 @@
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
 	}
-	
+
 	/* Intro Section */
 	#yellow {
 		padding: 150px 0 150px 0;
@@ -37,13 +37,13 @@
 		padding-top: 60px;
 		text-align: center;
 	}
-	#lightYellow .social a { 
+	#lightYellow .social a {
 		color: #fff;
 		border-bottom: 1px solid #fff;
 		border-bottom: none;
-		padding: 0 15px 0 15px; 
+		padding: 0 15px 0 15px;
 	}
-	#lightYellow .social a:hover { 
+	#lightYellow .social a:hover {
 		color: #444;
 		border-bottom: none;
 	}
@@ -61,7 +61,7 @@
 		width: 100%;
 		height: 220px;
 		border-radius: 440px;
-		background: url(/img/pixelMe.png);
+		background: url(img/pixelMe.png);
 		background-repeat:no-repeat;
 		background-position: center center;
 		background-size: contain;
@@ -80,11 +80,11 @@
 		font-style: italic;
 	}
 
-	p.lead { 
+	p.lead {
 		font-family: 'Josefin Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-weight: 600;
-		font-size: 32px; 
-		line-height: 40px; 
+		font-size: 32px;
+		line-height: 40px;
 		color: #444;
 	}
 
@@ -103,7 +103,7 @@
 
 	.hashtags {
 		color: #aaa;
-		font-family: 'Josefin Sans', Helvetica, Arial, sans-serif; 
+		font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
 		font-weight: 600;
 		font-size: 14px;
 		float: right;
@@ -146,7 +146,7 @@
 		display: block;
 		color: #fff;
 		text-shadow:
-   -1px -1px 6px #888,  
+   -1px -1px 6px #888,
     1px -1px 6px #888,
     -1px 1px 6px #888,
     1px 1px 6px #888;
@@ -193,10 +193,10 @@
 	  color:#fff;
 	}
 	::-moz-selection {
-	  background: #2c2c2c; 
+	  background: #2c2c2c;
 	  color:#fff;
 	}
-	::-webkit-selection {    
+	::-webkit-selection {
 	  background: #2c2c2c;
 	  color:#fff;
 	}
@@ -219,7 +219,7 @@
 		}
 		.hero #controls .arrow {
 			top: 194.5px;  /*147+(446/2)-(57/2)*/
-		}		
+		}
 	}
 
 	/* All Mobile Sizes (devices and browser) */
@@ -230,10 +230,10 @@
 		#pixelMe {
 			height: 300px;
 			border-radius: 600px;
-		}	
+		}
 		.hero #controls .arrow {
 			top: 96.5px;  /*147+(250/2)-(57/2)*/
-		}		
+		}
 	}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -254,10 +254,10 @@
 			width: 300px;
 			height: 300px;
 			border-radius: 600px;
-		}	
+		}
 		.hero #controls .arrow {
 			top: 96.5px;  /*147+(250/2)-(57/2)*/
-		}	
+		}
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -276,26 +276,26 @@
 		#pixelMe {
 			height: 300px;
 			border-radius: 600px;
-		}	
+		}
 		.sectionTitle h1 {
 			font-size: 38px;
 		}
 		.hero #controls .arrow {
 			top: 61px;  /*139+(179/2)-(57/2)*/
-		}			
-		p.lead { 
-			font-size: 22px; 
-			line-height: 30px; 
+		}
+		p.lead {
+			font-size: 22px;
+			line-height: 30px;
 			padding-left: 10px;
 			padding-right: 10px;
 		}
 		#lightYellow .social {
 			padding-top: 30px;
 		}
-		#lightYellow .social a { 
-		 padding: 0 10px 0 10px; 
+		#lightYellow .social a {
+		 padding: 0 10px 0 10px;
 		}
-		.add-bottom { 
-			margin-bottom: 20px !important; 
+		.add-bottom {
+			margin-bottom: 20px !important;
 		}
 	}
