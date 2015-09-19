@@ -61,7 +61,7 @@
 		width: 100%;
 		height: 220px;
 		border-radius: 440px;
-		background: url(img/pixelMe.png);
+		background: url(../img/pixelMe.png);
 		background-repeat:no-repeat;
 		background-position: center center;
 		background-size: contain;
